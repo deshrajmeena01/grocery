@@ -1,0 +1,5 @@
+@include('User.layout.header')
+@include('User.layout.navbar')
+@include('User.layout.mobileSidebar')
+@yield('MainSection')
+@include('User.layout.footer')
